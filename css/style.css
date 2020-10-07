@@ -534,6 +534,12 @@
 	}
 }
 @media (min-width: 641px) and (max-width: 1199px) and (orientation: landscape) {
+	.trends {
+		margin-top: 50px;
+	}
+	.trends__posts {
+		margin-top: 18px;
+	}
 	.trends__container {
 		width: calc(25% - 3px);
 	}
@@ -555,6 +561,12 @@
 	}
 }
 @media (min-width: 1200px) {
+	.trends {
+		margin-top: 50px;
+	}
+	.trends__posts {
+		margin-top: 18px;
+	}
 	.trends__container {
 		width: calc(25% - 3px);
 		min-height: 320px;
@@ -885,6 +897,7 @@
 		display: flex;
 		margin-right: auto;
 		margin-left: auto;
+		margin-top: 60px;
 	}
 	.post-list {
 		width: 780px;

@@ -914,6 +914,7 @@
 	}
 	.post-list__img {
 		width: 100%;
+		max-width: 700px;
 	}
 	.post-list__text {
 		font-size: 15px;
@@ -1084,9 +1085,7 @@
 		margin-right: 15px;
 	}
 	.shop__container {
-		max-width: 330px;
-		margin-left: auto;
-		margin-right: auto;
+		width: 100%;
 	}
 	.shop__images,
 	.shop__img {
